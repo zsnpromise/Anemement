@@ -1,6 +1,8 @@
-41 error Error: Command failed with exit code 128: git commit -m v0.0.4
-41 error fatal: could not open '.git/COMMIT_EDITMSG': Permission denied
-41 error     at makeError (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
-41 error     at handlePromise (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
-41 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-41 error     at async Promise.all (index 0)
+54 error Error: Command failed with exit code 1: git commit -m v0.0.6
+54 error error: insufficient permission for adding an object to repository database .git/objects
+54 error error: insufficient permission for adding an object to repository database .git/objects
+54 error error: Error building trees
+54 error     at makeError (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
+54 error     at handlePromise (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
+54 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+54 error     at async Promise.all (index 0)
