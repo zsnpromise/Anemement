@@ -1,0 +1,6 @@
+41 error Error: Command failed with exit code 128: git commit -m v0.0.2
+41 error fatal: could not open '.git/COMMIT_EDITMSG': Permission denied
+41 error     at makeError (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
+41 error     at handlePromise (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
+41 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+41 error     at async Promise.all (index 0)
