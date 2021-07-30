@@ -7,7 +7,6 @@
       </div>
   </div>
 </template>
-
 <script>
 import AsyncValidator from 'async-validator'
 export default {

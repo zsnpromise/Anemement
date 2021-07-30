@@ -3,7 +3,6 @@
       <button @click="handleClick"><slot></slot></button>
   </div>
 </template>
-
 <script>
 export default {
    name: 'AnButton',
