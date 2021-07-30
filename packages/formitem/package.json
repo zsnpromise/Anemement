@@ -1,9 +1,10 @@
 {
-  "name": "an-foritem",
+  "name": "anxx-foritem",
   "version": "0.0.5",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "async-validator": "^3.5.2"
-  }
+  },
+  "gitHead": "b9be19208571987f86bb171e452ab3e0b80b121e"
 }

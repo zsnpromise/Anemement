@@ -1,6 +1,7 @@
 {
-  "name": "an-input",
+  "name": "anxx-input",
   "version": "0.0.5",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "b9be19208571987f86bb171e452ab3e0b80b121e"
 }
