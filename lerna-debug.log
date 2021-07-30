@@ -1,6 +1,15 @@
-41 error Error: Command failed with exit code 128: git commit -m v0.0.2
-41 error fatal: could not open '.git/COMMIT_EDITMSG': Permission denied
-41 error     at makeError (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
-41 error     at handlePromise (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
-41 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-41 error     at async Promise.all (index 0)
+17 error Error: Command failed with exit code 1: git remote update
+17 error Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+17 error git@github.com: Permission denied (publickey).
+17 error fatal: Could not read from remote repository.
+17 error
+17 error Please make sure you have the correct access rights
+17 error and the repository exists.
+17 error error: Could not fetch origin
+17 error Fetching origin
+17 error     at makeError (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
+17 error     at Function.module.exports.sync (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/node_modules/execa/index.js:194:17)
+17 error     at Object.execSync (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/child-process/index.js:39:16)
+17 error     at updateRemote (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+17 error     at isBehindUpstream (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+17 error     at VersionCommand.initialize (/Users/zhansinan/.config/yarn/global/node_modules/@lerna/version/index.js:153:9)
