@@ -7,6 +7,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zsnpromise/AnElement.git"
+  },  
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@storybook/addon-actions": "^6.3.6",
