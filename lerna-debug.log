@@ -1,0 +1,7 @@
+62 error Error: Command failed with exit code 128: git tag v0.0.9 -m v0.0.9
+62 error error: insufficient permission for adding an object to repository database .git/objects
+62 error error: unable to write tag file
+62 error     at makeError (/Users/zhansinan/Desktop/js/Anemement/node_modules/execa/lib/error.js:60:11)
+62 error     at handlePromise (/Users/zhansinan/Desktop/js/Anemement/node_modules/execa/index.js:118:26)
+62 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+62 error     at async Promise.all (index 0)

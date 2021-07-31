@@ -4,7 +4,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
-  "gitHead": "c260f5cc7878fa7c6969cda86b67983e098156dc",
+  "gitHead": "939b6975e0aa782d45edda9821bb1922d95ef4f3",
   "scripts": {
     "build": "rollup -c",
     "del": "rimraf dist"

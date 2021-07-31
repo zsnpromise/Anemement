@@ -1,12 +1,13 @@
 {
-  "name": "lg-link",
+  "name": "anxx-link",
   "version": "0.0.10",
-  "description": "lg-link component",
+  "description": "Anxx-link component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": []
+  "keywords": [],
+  "gitHead": "939b6975e0aa782d45edda9821bb1922d95ef4f3"
 }
