@@ -1,7 +1,12 @@
 {
   "name": "anxx-button",
   "version": "0.0.8",
-  "main": "index.js",
   "license": "MIT",
-  "gitHead": "c260f5cc7878fa7c6969cda86b67983e098156dc"
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "gitHead": "c260f5cc7878fa7c6969cda86b67983e098156dc",
+  "scripts": {
+    "build": "rollup -c",
+    "del": "rimraf dist"
+  }
 }
